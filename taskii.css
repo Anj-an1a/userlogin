@@ -1,0 +1,130 @@
+body {
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYBjcOJqrFKL9E5sqSCcM235t-gQG6y8STJA&usqp=CAU');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 20px;
+ 
+}
+
+.container {
+  background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20210903/pngtree-rainy-weather-image_795021.jpg');
+  max-width: 300px;
+  height: auto;
+  margin: 0 auto;
+  background-color:rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 50px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  
+  
+}
+
+
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color:black;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  color: #333;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  transition: transform 0.3s ease-in-out;
+}
+
+input[type="text"]:hover,
+input[type="password"]:hover {
+  transform: scale(1.1);
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #0056b3;
+  transform: scale(1.1);
+}
+
+.forgot-password {
+  display: block;
+  text-align: right;
+  color: darkblue;
+  text-decoration: none;
+  font-size: 14px;
+  
+  margin-bottom: 10px;
+}
+
+.forgot-password:hover {
+  text-decoration: underline;
+}
+
+.spacer {
+  height: 50px;
+}
+
+.logos {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.logos img {
+  width: 30px;
+  margin: 0 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.logos img:hover {
+  transform: scale(1.1);
+}
+
+.signup-option {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.signup-option p {
+  font-size: 16px;
+}
+
+.signup-option a {
+  color:darkblue;
+  text-decoration: none;
+}
+
+.signup-option a:hover {
+  text-decoration: underline;
+}
+
+
+
